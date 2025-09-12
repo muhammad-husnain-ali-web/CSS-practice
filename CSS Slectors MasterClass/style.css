@@ -1,0 +1,51 @@
+/* unvirsal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element selector */
+div{
+    background-color: red;
+    color: blue;
+}
+/* Class selector */
+.blue{
+    background-color: blue;
+    color: red;
+}
+/* ID selectors */
+#green{
+    color: green;
+    background-color: bisque;
+}
+/* child selectors */
+div > p{
+    background-color: blanchedalmond;
+    color:aqua;
+}
+p{
+    background-color: brown;
+    color: burlywood;
+}
+/* decendant slectors */
+div  p{
+    background-color: blanchedalmond;
+    color:aqua;
+}
+/* pseudo selector */
+a:visited
+{
+    color: blueviolet;
+}
+a:link{
+    color: green;
+}
+a:active{
+    background-color:brown
+}
+a:hover{
+    background-color: brown;
+}
+p:first-child{
+    background-color: blueviolet;
+}
