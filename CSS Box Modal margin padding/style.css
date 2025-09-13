@@ -1,0 +1,28 @@
+.box{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+ }                /*   Overlap margin greater margin  */
+.box2{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+.box3{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+ }                /*   Overlap margin */
+.box4{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
