@@ -1,0 +1,40 @@
+/* 0 spacitity */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* 100 specifity */
+/* #hs{
+    color: aqua;
+} */
+/* 1 specifity */
+h1{             /* 10000 specifity !important  inline style 1000*/ 
+    color: red;
+}                       /* if element are same are then position check
+/* 10 specifity */
+.yellow{
+    color: yellow;
+}
+/* 10 specifity */
+.red{
+    color: red;
+}
+/* 10 + 1 = 11 specifity */
+h1.blue{
+    color: rgb(169, 214, 214);
+}
+/* 10 specifity */
+.blue{
+    color: blue;
+}
+/* 1 + 10 + 10 + 10 + 10 = 41 specifity */
+h1.yellow.blue[hraf="a"]:hover{
+    cursor: pointer;
+    color: maroon;
+}
+/* Attribute selectors 10 specifity */
+[hraf=a]{
+    color: green ;
+}
