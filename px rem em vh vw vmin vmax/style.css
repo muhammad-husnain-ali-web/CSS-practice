@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+/*inch */
+/* div{
+    width: 350px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    margin: 2px;
+} */
+/* view port means accroding to screen */
+.box1{
+    width: 80vw;
+    height: 10vh;
+    padding: 25px;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.box2{
+    font-size: 10px;
+    width: 80vw;
+    /* height: 70vh; */
+    padding: 25px;
+    min-height: 80vh;
+    background-color: aquamarine;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    margin: 20px auto;
+}
+/* to parent contaner */
+/* p{
+    font-size: 2em;
+} */
+/* to root parant means body */
+p{
+    font-size: 1.5rem;
+    height: 50%;
+    width: 50%;
+    border: 2px solid blanchedalmond;
+    padding: 2%;
+
+}
+/* vmin heiht for com but width for mobile vmax width for com but hiegt for mobile */
+/* .mycount{
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    width: 100vmin;
+    margin: auto;
+    border-radius: 2px;
+
+} */
+.mycount{
+    background-color: red;
+    color: yellow;
+    font-size: 22px;
+    width: 80vmax;
+    margin: auto;
+    padding: 5px;
+    border-radius: 55px;
+}
