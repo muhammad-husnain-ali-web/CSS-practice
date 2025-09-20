@@ -1,0 +1,14 @@
+.box{
+    border: 2px solid black;
+    padding: 34px;
+    /* hor-off ver-offset blur spread color inset */
+    box-shadow: -2px 9px 20px 5px #da9b9b;
+}
+p{
+    /* hor-off ver-offset blur color */
+    text-shadow: 2px 5px 4px #c58bd8;
+    outline: 2px solid violet;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline-offset: 5px;
+}
