@@ -1,0 +1,17 @@
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 15px
+}
+nav ul li{
+    list-style: none;
+    /* list-style: devanagari; */
+    /* background-color: aqua; */
+    /* list-style-position: inside; */
+    /* border: 2px solid burlywood; */
+    /* list-style-type:lower-greek; */
+    /* list-style: disc inside url("/List CSS Style/{4F087628-0885-4B12-92B6-D93160C62CE1}.png.jpg "); */
+    /* list-style-image: url("/List CSS Style/{4F087628-0885-4B12-92B6-D93160C62CE1}.png.jpg "); */
+}
