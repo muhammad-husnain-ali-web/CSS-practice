@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.contanier{
+    /* position: absolute; */
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    /* height: 90vh;
+    width: 90vh;
+    overflow: auto; */
+}
+.box{
+    border: 2px solid black;
+    height: 133px;
+    width: 80vw;
+    margin: 3px;
+    padding: 3px;
+}
+.box1{
+    background-color: aqua;
+    /* relative to position element transmation filter and perspective properties */
+    /* position: absolute;
+    top: 0px; */
+}
+.box2{
+    background-color: azure;
+    /* relative to itself */
+    /* position: relative; */
+    /* top: 22px; */
+    /* z index to show on upper */
+    /* z-index: -1; */
+}
+.box3{
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0px;
+}
+.box4{
+    background-color: purple;
+    position: fixed;
+    bottom: 0px;
+}
