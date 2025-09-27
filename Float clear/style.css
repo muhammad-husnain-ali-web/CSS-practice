@@ -1,0 +1,17 @@
+div img{
+    width: 230px;
+    /* float: left; */
+    float:right;
+}
+.boxes{
+    border: 2px solid black;
+    display: flow-root;
+}
+.box{
+    border: 2px solid red;
+}
+div:nth-child(3){
+    background-color: aqua;
+    /* clear: right; */
+    clear: both;
+}
