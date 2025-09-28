@@ -1,0 +1,47 @@
+/* check box or div to child */
+/* .box:first-child{
+    background-color: red;
+}
+.box:first-line{
+    background-color: aqua;
+} */
+.boxes *{
+    background-color: azure;
+}
+/* [data-color="copy"]{
+    background-color: green;
+} */
+/* p, [data-color="copy"], .box3{
+    background-color: green;
+} */
+/* .box:nth-child(even){
+    background-color: blue;
+} */
+/* .box:nth-child(odd){
+    background-color: blue;
+} */
+/* .box:nth-child(1){
+    background-color: blue;
+} */
+/* .box:nth-last-child(1){
+    background-color: blue;
+} */
+.box::first-letter{
+    font-size: 55px;
+    color: purple;
+} 
+.boxes::before{
+    content: "Husnain is learning web ";
+    background-color: beige;
+}
+.boxes::after{
+    content: "Husnain is learning web ";
+}
+::selection{
+    color: blanchedalmond;
+    background-color: black;
+}
+input::placeholder{
+    color: blue;
+    background-color: antiquewhite;
+}
