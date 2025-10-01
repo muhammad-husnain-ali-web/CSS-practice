@@ -1,0 +1,32 @@
+.container{
+    height: 30vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: "nav nav nav" 
+                        "side article article" 
+                        "foot foot foot";
+
+}
+.item{
+    border: 2px solid red;
+}
+.item-1{
+    grid-area: nav;
+    background-color: rgb(219, 158, 65);
+}
+.item-2{
+    grid-area: side;
+    background-color: beige;
+}
+.item-3{
+    grid-area: article;
+    background-color: blanchedalmond;
+}
+.item-4{
+    grid-area: foot;
+    background-color: rgb(203, 136, 53);
+}
+.item-5{
+    grid-area: side;
+}
