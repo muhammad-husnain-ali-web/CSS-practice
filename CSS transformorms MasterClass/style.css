@@ -1,0 +1,32 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(45deg); */
+    transform: rotate(0.7turn);
+    transform-origin: 0 0;
+    transform-origin: 32% 0%;
+    /* transform: rotateX(92deg); */
+    /* transform: rotateY(92deg); */
+    /* transform: rotateZ(90deg); */
+    /* transform: scale(1.26); */
+    /* transform: scaleX(1.26); */
+    /* transform: scaleY(1.26); */
+    /* transform: skew(5deg); */
+    /* transform: skewX(93deg); */
+    /* transform: skewY(80deg); */
+    /* transform: translate(100%) skew(45deg);
+    transform: translateX(100%) skew(45deg) translateY(45%); */
+    /* transform: translateX(-99%) skew(45deg) translateY(-99%); */
+    /* transform: translateX(100%); */
+    /* transform: translateY(100%); */
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 2px solid purple;
+}
