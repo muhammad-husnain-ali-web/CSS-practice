@@ -1,0 +1,52 @@
+.container{
+    background-color: aquamarine;
+    width: 50vw;
+    height: 40vh;
+}
+.box{
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+    /* animation-name: trans;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-play-state: running; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: trans 4s ease-out 2s infinite alternate forwards; */
+    animation: trans 10s ease-out 3s infinite alternate;
+    /* animation: trans 4s ease-out 5s infinite alternate backwards; */
+}
+
+/* @keyframes trans {
+    from{
+        background-color: red;
+        transform: translateX(0vw) translateY(0vh);
+    }
+    to{
+        background-color: green;
+        transform: translateX(50vw) translateY(20vh);
+    }
+} */
+@keyframes trans {
+    0%{
+        background-color: black;
+    }
+    20%{
+        background-color: bisque;
+    }
+    40%{
+        background-color: rgb(174, 127, 255);
+    }
+    60%{
+        background-color: brown;
+    }
+    80%{
+        background-color: rgb(226, 17, 17);
+    }
+    100%{
+        background-color: burlywood;
+    }
+}
