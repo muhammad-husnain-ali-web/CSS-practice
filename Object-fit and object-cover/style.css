@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    width: 100vw;
+    /* background-color: aquamarine; */
+    border: 2px solid black;
+    /* if image is large then repeat */
+    background-image: url("aerial-front-view-sports-motor-600nw-2489196327.webp");
+    /* background-position: top right; */
+    /* background-position: center center;
+    background-repeat: repeat;
+    background-repeat: no-repeat; */
+    /* background-clip: border-box;
+    background-clip:padding-box;
+    background-clip: content-box; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: cover; */
+    /* background-size: contain; */
+    /* by default */
+    /* background-size: auto; */
+}
+img{
+    height: 400px;
+    width: 300px;
+    background-color: green;
+    /* cover img width hight but img zoomed */
+    object-fit: cover;
+    /* object-position: top right; */
+    /* object-position: bottom left; */
+    /* object-position: center center; */
+    object-position: 10px 20px;
+    /* by default */
+    /* object-fit: fill; */
+    /* object-fit: scale-down; */
+    /* object-fit: none; */
+    /* object-fit: contain; */
+}
