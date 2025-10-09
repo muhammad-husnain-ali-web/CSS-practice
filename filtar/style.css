@@ -1,0 +1,22 @@
+.img1{
+    /* filter: blur(2px); */
+    /* filter: brightness(122%),blur(2px); */
+    filter: brightness(122%);
+    /* filter: invert(1); */
+}
+.img2{
+    height: 500px;
+    /* filter: brightness(122%);
+    filter: contrast(200%); */
+    /* filter: grayscale(30%);
+    filter: grayscale(100%);
+    filter: sepia(30%);
+    filter: sepia(100%); */
+    filter: invert(0.7);
+    /* filter: invert(0.7);
+    filter: opacity(0);
+    filter: opacity(0.2);
+    filter: opacity(1); */
+    /* filter: drop-shadow(16px 15px 20px rgb(203, 174, 174)); */
+    /* filter:  brightness(1000%), blur(10px), contrast(1.5); */
+}
